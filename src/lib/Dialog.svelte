@@ -66,7 +66,7 @@
         {#if index == 3} <!-- PILIH SEKTOR -->
             {#if visible}
                 <p in:typewriter>
-                    Ini contoh proyek-proyek yang banyak dikasih label PSN. Ada juga sih proyek lain macam PLTS dan IKN, tapi... Ah, sudahlah. Gak jelas itu.<br><br> Kalau dari contoh di atas, kamu tertarik yang mana?
+                    Here are some examples of projects that often get the PSN label. There are other kinds too, like solar power plants and the new capital city project, but... <em>ah</em>, never mind. That whole thing’s a bit unclear.<br><br> From the examples above, which one are you interested in?
                 </p>
                 <!-- {#if next}
                 <button on:click={() => goto(4)}>Lanjut</button>

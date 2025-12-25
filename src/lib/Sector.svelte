@@ -24,21 +24,21 @@
 
 <section>
     {#if index == 3}
-        <h2>Pilih sektor usahamu:</h2>
+        <h2>First, pick your project:</h2>
         <!-- <select bind:value={sector}>
             <option value="pertambangan">Pertambangan</option>
             <option value="agrikultur">Agrikultur</option>
             <option value="pariwisata">Pariwisata</option>
         </select> -->
         <div>
-            <button class="sector" class:selected={sector == "bendungan" && selected} on:click={select} data-value="bendungan">Bendungan</button>
-            <button class="sector" class:selected={sector == "jalantol" && selected} on:click={select} data-value="jalantol">Jalan Tol</button>
-            <button class="sector" class:selected={sector == "kereta" && selected} on:click={select} data-value="kereta">Kereta Api</button>
-            <button class="sector" class:selected={sector == "bandara" && selected} on:click={select} data-value="bandara">Bandara/ Pelabuhan</button>
-            <button class="sector" class:selected={sector == "energi" && selected} on:click={select} data-value="energi">Infrastruktur Energi</button>
+            <button class="sector" class:selected={sector == "bendungan" && selected} on:click={select} data-value="bendungan">Dam</button>
+            <button class="sector" class:selected={sector == "jalantol" && selected} on:click={select} data-value="jalantol">Toll Road</button>
+            <button class="sector" class:selected={sector == "kereta" && selected} on:click={select} data-value="kereta">Railway</button>
+            <button class="sector" class:selected={sector == "bandara" && selected} on:click={select} data-value="bandara">Ariport/ Port</button>
+            <button class="sector" class:selected={sector == "energi" && selected} on:click={select} data-value="energi">Energy Infrastructure</button>
             <button class="sector" class:selected={sector == "smelter" && selected} on:click={select} data-value="smelter">Smelter</button>
-            <button class="sector" class:selected={sector == "kie" && selected} on:click={select} data-value="kie">Kawasan Industri/ Ekonomi</button>
-            <button class="sector" class:selected={sector == "pangan" && selected} on:click={select} data-value="pangan">Lumbung Pangan</button>
+            <button class="sector" class:selected={sector == "kie" && selected} on:click={select} data-value="kie">Industrial/ Economic Zone</button>
+            <button class="sector" class:selected={sector == "pangan" && selected} on:click={select} data-value="pangan">Food Estate</button>
         </div>
         <button class="next" on:click={() => {index = 4}} disabled={!selected}>Lanjut</button>
     {:else if index == 13}
