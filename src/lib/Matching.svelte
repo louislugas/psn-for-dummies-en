@@ -19,19 +19,19 @@
 		columns: [
 			{
 				id: 1,
-				label: 'Dokumen'
+				label: 'Permits'
 			},
 			{
 				id: 2,
-				label: 'Izin Lokasi'
+				label: 'Location Permits'
 			},
 			{
 				id: 3,
-				label: 'Izin Lingkungan'
+				label: 'Environmental Permits'
 			},
 			{
 				id: 4,
-				label: 'Izin Mendirikan Bangunan'
+				label: 'Building Permits'
 			}
 		],
 		cards: [
@@ -39,43 +39,43 @@
 				column: 1,
 				id: 'a',
 				target: 2,
-				title: 'Cek Lahan'
+				title: 'Land Check'
 			},
 			{
 				column: 1,
 				id: 'b',
 				target: 2,
-				title: 'Tata Ruang'
+				title: 'Spatial Planning'
 			},
 			{
 				column: 1,
 				id: 'c',
 				target: 2,
-				title: 'Pelepasan Status Kawasan Hutan'
+				title: 'Release of Forest Area Status'
 			},
 			{
 				column: 1,
 				id: 'd',
 				target: 3,
-				title: 'Uji Kelayakan Lingkungan'
+				title: 'Environmental Feasibility Study'
 			},
 			{
 				column: 1,
 				id: 'e',
 				target: 3,
-				title: 'AMDAL'
+				title: 'Environmental Impact Analysis'
 			},
 			{
 				column: 1,
 				id: 'f',
 				target: 4,
-				title: 'Denah & Desain Bangunan'
+				title: 'Site Plan and Building Design'
 			},
 			{
 				column: 1,
 				id: 'g',
 				target: 4,
-				title: 'Pajak Bumi & Bangunan'
+				title: 'Land and Building Tax'
 			}
 		]
 	}
@@ -165,7 +165,7 @@
 							{/each}
 						</ul>
 					{:else}
-						<p>Tidak ada dokumen...</p>
+						<p>No documents yet...</p>
 					{/if}
 				</li>
 				{/if}
@@ -218,7 +218,7 @@
 							{/each}
 						</ul>
 					{:else}
-						<p>Tidak ada dokumen...</p>
+						<p>No documents yet...</p>
 					{/if}
 				</li>
 				{/if}
@@ -229,7 +229,7 @@
 	<Direct 
 		bind:showDirect
 		bind:play
-		content="Geser dokumen di kiri ke kategori yang tepat di kanan."
+		content="Drag documents on the left into their correct permits on the right."
 	/>
 	{/if}
 </section>

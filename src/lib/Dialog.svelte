@@ -69,7 +69,7 @@
                     Here are some examples of projects that often get the PSN label. There are other kinds too, like solar power plants and the new capital city project, but... <em>ah</em>, never mind. That whole thing’s a bit unclear.<br><br> From the examples above, which one are you interested in?
                 </p>
                 <!-- {#if next}
-                <button on:click={() => goto(4)}>Lanjut</button>
+                <button on:click={() => goto(4)}>Continue</button>
                 {/if} -->
             {/if}
 
@@ -78,22 +78,22 @@
                 These are the criteria for getting your project onto the PSN list. But don’t stress about them. The only one that really matters is the last point. For someone like you, Rp500 billion is basically pocket change, right?
             </p>
             {#if next}
-            <button on:click={() => goto(5)}>Lanjut</button>
+            <button on:click={() => goto(5)}>Continue</button>
             {/if}
 
         {:else if index == 5} <!-- MENCOCOKKAN DOKUMEN -->
             <p in:typewriter>
-                Ini dokumen-dokumen perizinan yang harus dilengkapi biar proyekmu segera disetujui. Coba, bisa gak kamu tempatkan dokumen-dokumennya di kategori yang tepat?
+                These are the permits required to get your project approved quickly.<br><br>Let’s see if you can put each permit into the correct category.
             </p>
             <!-- {#if match}
-            <button on:click={() => goto(7)}>Lanjut</button>
+            <button on:click={() => goto(7)}>Continue</button>
             {/if} -->
         {:else if index == 6} <!-- MENCOCOKKAN DOKUMEN -->
             <p in:typewriter>
-                Nah, itu kamu paham! Gampang kan?
+                There you go! Easy, right?
             </p>
             {#if next}
-            <button on:click={() => goto(7)}>Lanjut</button>
+            <button on:click={() => goto(7)}>Continue</button>
             {/if}
 
         {:else if index == 7} <!-- PILIH AREA -->
