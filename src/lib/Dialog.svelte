@@ -103,7 +103,7 @@
 
         {:else if index == 8} <!-- SOSIALISASI PROYEK -->
             <p in:typewriter>
-                Kamu mau sosialisasikan gak proyeknya?
+                Do you want to hold any public consultations for your project?
             </p>
 
         {:else if index == 9} <!-- DENGARKAN MASYARAKAT ( INTRO )-->
