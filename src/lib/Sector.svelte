@@ -49,14 +49,14 @@
                 <option value="pariwisata">Pariwisata</option>
             </select> -->
             <div>
-                <button class="sector" class:selected={jurus == "hijau" && selected} on:click={select} data-value="hijau">Beri proyekmu label "hijau"</button>
-                <button class="sector" class:selected={jurus == "nasionalisme" && selected} on:click={select} data-value="nasionalisme">Gaungkan narasi nasionalisme dan kedaulatan</button>
-                <button class="sector" class:selected={jurus == "csr" && selected} on:click={select} data-value="csr">CSR: bagi sembako, bangun posyandu, tanam pohon, dll</button>
-                <button class="sector" class:selected={jurus == "peneliti" && selected} on:click={select} data-value="peneliti">Bayar peneliti abal-abal bikin kajian pesanan</button>
-                <button class="sector" class:selected={jurus == "influencer" && selected} on:click={select} data-value="influencer">Bayar influencer untuk promosikan proyek</button>
-                <button class="sector" class:selected={jurus == "iklan" && selected} on:click={select} data-value="iklan">Pasang iklan besar di media agar berita proyekmu positif</button>
+                <button class="sector" class:selected={jurus == "hijau" && selected} on:click={select} data-value="hijau">Give your project a “green” label</button>
+                <button class="sector" class:selected={jurus == "nasionalisme" && selected} on:click={select} data-value="nasionalisme">Push a nationalism and sovereignty narrative</button>
+                <button class="sector" class:selected={jurus == "csr" && selected} on:click={select} data-value="csr">CSR: hand out food packages, plant trees, etc.</button>
+                <button class="sector" class:selected={jurus == "peneliti" && selected} on:click={select} data-value="peneliti">Pay researchers to write studies you want</button>
+                <button class="sector" class:selected={jurus == "influencer" && selected} on:click={select} data-value="influencer">Pay influencers to promote your project</button>
+                <button class="sector" class:selected={jurus == "iklan" && selected} on:click={select} data-value="iklan">Buy big ads for positive media coverage</button>
             </div>
-            <button class="next" on:click={() => {index = 14}} disabled={!selected}>Lanjut</button>
+            <button class="next" on:click={() => {index = 14}} disabled={!selected}>Continue</button>
     {/if}
 </section>
 

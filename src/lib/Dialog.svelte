@@ -131,24 +131,15 @@
                 <br><br>
                 How far do you want the security forces to go?
             </p>
-
-        {:else if index == 12} <!-- JURUS CUCI DOSA 1 -->
-            <!-- <h3>Joko Widodo</h3> -->
-            <!-- <p in:typewriter>
-                Cita-citanya kan mau buat proyek strategis nasional yang berkelanjutan ya? Baiknya pelajari dulu deh preseden proyek-proyek sebelumnya biar tidak melakukan kesalahan yang sama.
-            </p> -->
-
         {:else if index == 13} <!-- JURUS CUCI DOSA 2 -->
             <!-- <h3>Sri Mulyani</h3> -->
             <p in:typewriter>
-                Pilih satu jurus yang kamu paling cocok!
+                Pick the one that suits you best!
             </p>
-
-        
         {:else if index == 23} <!-- GAME OVER via AMDAL -->
             <!-- <h3>Luhut Binsar Panjaitan</h3> -->
             <p in:typewriter>
-                Kelamaan!
+                You're taking too long!
             </p>
        
         {/if}

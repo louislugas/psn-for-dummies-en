@@ -65,7 +65,7 @@
         <!-- RESUME -->
         <Resume bind:index bind:sector bind:area bind:state bind:jurus/>
     
-    {:else if index == 23 || index == 24}
+    {:else if index == 23}
         <!-- GAME OVER -->
         <GameOver bind:index/>
     {/if}
