@@ -20,37 +20,37 @@
             <!-- <h3>Kriteria Dasar</h3> -->
             <p in:fly={{x:-100}} style:transform="translateX({show? 0 : -100}px)"
             style:opacity="{show ? 1 : 0}">
-            Masuk rencana pembangunan
+            Included in official development plans
             </p>
             <p in:fly={{x:-100, delay:400}}
             style:transform="translateX({show? 0 : -100}px)"
             style:opacity="{show ? 1 : 0}"
             style:transition-delay="400ms">
-            Cocok dengan tata ruang wilayah
+            Fits the regional spatial plan
             </p>
             <p in:fly={{x:-100, delay:400}}
             style:transform="translateX({show? 0 : -100}px)"
             style:opacity="{show ? 1 : 0}"
             style:transition-delay="800ms">
-            Berdampak ekonomi dan sosial
+            Has significant economic and social impact
             </p>
             <p in:fly={{x:-100, delay:400}}
             style:transform="translateX({show? 0 : -100}px)"
             style:opacity="{show ? 1 : 0}"
             style:transition-delay="1200ms">
-            Sinkron dengan proyek infrastruktur lain
+            Aligned with other infrastructure projects
             </p>
             <p in:fly={{x:-100, delay:400}}
             style:transform="translateX({show? 0 : -100}px)"
             style:opacity="{show ? 1 : 0}"
             style:transition-delay="1600ms">
-            Ada studi kelayakan
+            Supported by a feasibility study
             </p>
             <p in:fly={{x:-100, delay:400}}
             style:transform="translateX({show? 0 : -100}px)"
             style:opacity="{show ? 1 : 0}"
             style:transition-delay="2000ms">
-            <strong>Duit investasi >Rp500 miliar</strong>
+            <strong>Investment value above Rp500 billion</strong>
             </p>
         <!-- {:else if index == 4}
             <h3>Kriteria Strategis</h3>

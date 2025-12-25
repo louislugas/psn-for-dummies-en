@@ -75,7 +75,7 @@
 
         {:else if index == 4} <!-- INFOGRAFIS STATIS -->
             <p in:typewriter>
-                Ini kriteria biar proyek kamu masuk daftar PSN. Tapi gak usah diambil pusing. Yang penting poin terakhir aja. Buat kamu, duit Rp500 miliar <em>sih</em> sepele.
+                These are the criteria for getting your project onto the PSN list. But don’t stress about them. The only one that really matters is the last point. For someone like you, Rp500 billion is basically pocket change, right?
             </p>
             {#if next}
             <button on:click={() => goto(5)}>Lanjut</button>
