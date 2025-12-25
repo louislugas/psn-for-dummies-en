@@ -12,100 +12,84 @@
     let j = ""
 
     $: if (sector == "bendungan") {
-        s = "Bendungan"
-        // t = ["Lim Hariyanto"]
-        // i = ["lim-hariyanto"]
+        s = "Dam"
     } else if (sector == "jalantol") {
-        s = "Jalan Tol"
-        // t = ["Pertamina", "PLN"]
-        // i = ["pertamina", "pln"]
+        s = "Toll Road"
     } else if (sector == "kereta") {
-        s = "Kereta Api"
-        // t = ["Boy Thohir"]
-        // i = ["boy-thohir"]
+        s = "Railway"
     } else if (sector == "bandara") {
-        s = "Bandara/Pelabuhan"
-        // t = ["PT Aviasi Pariwisata Indonesia (Injourney)"]
-        // i = ["injourney"]
+        s = "Airport/Port"
     } else if (sector == "energi") {
-        s = "Infrastruktur Energi"
-        // t = ["Haji Isam"]
-        // i = ["haji-isam"]
+        s = "Energy Infrastructure"
     } else if (sector == "smelter") {
         s = "Smelter"
-        // t = ["Aguan"]
-        // i = ["aguan"]
     } else if (sector == "kie") {
-        s = "Kawasan Industri/Ekonomi"
-        // t = ["Tomy Winata"]
-        // i = ["tomy-winata"]
+        s = "Industrial/Economic Zone"
     } else if (sector == "pangan") {
-        s = "Lumbung Pangan"
-        // t = ["Martias Fangiono"]
-        // i = ["martias-fangiono"]
+        s = "Food Estate"
     }
 
     $: if (jurus == "hijau") {
-        j = 'Beri proyek label "hijau"'
+        j = 'Give your project a “green” label'
     } else if (jurus == "nasionalisme") {
-        j = "Gaungkan narasi nasionalisme dan kedaulatan"
+        j = "Push a nationalism and sovereignty narrative"
     } else if (jurus == "csr") {
-        j = "CSR: bagi sembako, bangun posyandu, tanam pohon, dll"
+        j = "CSR: hand out food packages, plant trees, etc."
     } else if (jurus == "peneliti") {
-        j = "Bayar peneliti abal-abal bikin kajian pesanan"
+        j = "Pay researchers to write studies you want"
     } else if (jurus == "influencer") {
-        j = "Bayar influencer untuk promosikan proyek"
+        j = "Pay influencers to promote your project"
     } else if (jurus == "iklan") {
-        j = "Pasang iklan besar di media agar berita proyek positif"
+        j = "Buy big ads for positive media coverage"
     }
 
     $: if (area = 0) {
-        a = "Kawasan Hutan/Masyarakat Adat"
+        a = "Forest Area/Indigenous Land"
     } else if (area = 1) {
-        a = "Kawasan Pertanian/Perkebunan"
+        a = "Farmland/Plantation"
     } else if (area = 2) {
-        a = "Kawasan Pesisir"
+        a = "Coastal Area"
     } else if (area = 3) {
-        a = "Kawasan Permukiman"
+        a = "Settlements"
     }
 
     $: if (state == 1) {
-        p = "Membubarkan Massa"
+        p = "Disperse the protesters"
     } else if (state == 2) {
-        p = "Menangkap Massa Aksi"
+        p = "Arrest the protesters"
     } else if (state == 3) {
-        p = "Menangkap Jurnalis"
+        p = "Arrest the journalists"
     }
 </script>
 
 <section>
-    <h2>Resume Proyek</h2>
+    <h2>Your Project Plan</h2>
     <div>
         <div class="resume">
-            <p class="head">Proyek:</p>
+            <p class="head">Project:</p>
             <p class="content">{s}</p>
         </div>
         <div class="resume">
-            <p class="head">Perizinan:</p>
-            <p class="content">Lengkap</p>
+            <p class="head">Permits:</p>
+            <p class="content">Complete</p>
         </div>
         <div class="resume">
-            <p class="head">Menggusur Lahan:</p>
+            <p class="head">Land Cleared:</p>
             <p class="content">{a}</p>
         </div>
         <div class="resume">
-            <p class="head">Metode Penanganan Massa</p>
+            <p class="head">Crowd Control Method:</p>
             <p class="content">{p}</p>
         </div>
         <div class="resume">
-            <p class="head">Jurus Cuci Dosa:</p>
+            <p class="head">Whitewashing Move:</p>
             <p class="content">{j}</p>
         </div>
     </div>
 
     <div class='button-container'>
-        <button on:click={() => index = 0}>Selesai</button>
-        <a class='button' href="https://projectmultatuli.org/proyek-sengsara-nasional/" target="_blank">Baca Serial PSN</a>
+        <button on:click={() => index = 0}>Finish</button>
+        <a class='button' href="https://projectmultatuli.org/proyek-sengsara-nasional/" target="_blank">Read the PSN Series</a>
     </div>
     <!-- <button on:click={() => index = 0}
         style:margin-top="0.5rem"
@@ -117,7 +101,7 @@
         </div>
         <div class="center">
             <p>
-                Kamu sudah siap jadi investor PSN!
+                You’re all set to become a PSN investor!
             </p>
         </div>
         <div class="right">
