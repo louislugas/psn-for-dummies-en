@@ -10,58 +10,58 @@
 
     let text = [
         {
-        t:"Anda adalah konglomerat dari sebuah negara adikuasa.",
+            t:"You are a business tycoon from a global superpower.",
         },
         {
-        t:"Saat berkunjung ke Indonesia, Anda mendapat undangan makan malam di rumah seorang pejabat. Dia kenalan lama Anda, punya pengaruh besar dan koneksi luas di pemerintahan.",
+            t:"During a visit to Indonesia, you receive an invitation to have dinner at the home of a government official. He’s an old acquaintance of yours, with enormous influence in the administration.",
         },
         {
-        t:"Saat makan malam, kenalan Anda bertanya:",
+            t:"Over dinner, he asks:",
         },
         {
-        t:"Kamu tidak tertarik investasi di PSN?",
+            t:"You’re not interested in investing in PSN?",
         },
         {
-        t:"Anda balik bertanya:", 
+            t:"You reply,:", 
         },
         {
-        t:"Apa itu PSN?",
+            t:"What’s PSN?",
         }
     ]
 
     let text2 = [
         {
-        t:"Kenalan Anda menjelaskan:",
+            t:"Your acquaintance explains:",
         },
         {
-        t:"PSN adalah Proyek Strategis Nasional",
+            t:"PSN stands for <em>Proyek Strategis Nasional</em>, or National Strategic Projects in English.",
         },
         {
-            t:"PSN ini warisan rezim Joko Widodo. Selama 10 tahun pemerintahannya, Jokowi mengutak-atik banyak aturan biar proyek-proyek berlabel PSN bisa berjalan bebas hambatan. Pokoknya, pemerintah siap mengerahkan seluruh aparatur negara untuk mendukung proyekmu!"
+            t:"The whole PSN framework was introduced by former President Joko Widodo. Over his 10 years in power, Jokowi overhauled numerous regulations so that projects with the PSN label could move forward with as few obstacles as possible. Bottom line: the government is ready to mobilize the entire state apparatus to back your project."
         }, 
         {
-            t:"Sekarang, Presiden Prabowo Subianto melanjutkan skema PSN. Per September 2025, sudah ada 250 proyek dan program di daftar PSN."
+            t:"Now President Prabowo Subianto is continuing this PSN framework. As of September 2025, there are already 250 projects and programs on the PSN list."
         },
         {
-            t:"Tertarik, Anda bertanya lagi:"
+            t:"Intrigued, you ask:"
         },
         {
-            t:"Bagaimana caranya saya punya PSN?"
+            t:"So how do I get my own PSN project?"
         }
     ]
 
     let text3 = [
         {
-        t:"Anda mulai yakin berinvestasi di PSN. Namun, masih ada yang mengganjal.",
+        t:"You’re starting to feel confident about investing in PSN. But something still bothers you.",
         },
         {
-        t:"Anda teringat pernah membaca berita soal bagaimana PSN di Indonesia telah memicu kerusakan lingkungan, konflik lahan, dan pelanggaran HAM.",
+        t:"You remember reading news about how PSN projects in Indonesia have triggered environmental damage, land conflicts, and human rights violations.",
         },
         {
-        t:"Anda tanya pendapat kenalan Anda, yang segera membalas:",
+        t:"You ask your acquaintance what he thinks. He quickly replies:",
         },
         {
-        t:"Gampang"
+        t:"Easy"
         }
     ]
 

@@ -23,7 +23,7 @@
             <img src="./images/prabowo-subianto.png" alt="Prabowo Subianto - PSN for Dummies">
         </div>
         <div class="center">
-            <button on:click={() => {index = 1}}>MULAI</button>
+            <button on:click={() => {index = 1}}>PLAY</button>
         </div>
         <div class="right">
             <img src="./images/joko-widodo.png" alt="Joko Widodo - PSN for Dummies">
