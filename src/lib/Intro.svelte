@@ -133,23 +133,23 @@
     {#if index == 1}
         {#if visible}
         <div class="text" in:typewriter>
-            <p>{text[0].t}</p>
-            <p>{text[1].t}</p>
-            <p>{text[2].t}</p>
+            <p>{@html text[0].t}</p>
+            <p>{@html text[1].t}</p>
+            <p>{@html text[2].t}</p>
         </div>
 
         <div class="dialog-container left">
-            <p class="dialog" in:fly={{x:-100, delay:3300}}>{text[3].t}</p>
+            <p class="dialog" in:fly={{x:-100, delay:3300}}>{@html text[3].t}</p>
         </div>
         <br>
         <div class="text" in:typewriter={{delay:4100}}>
-            <p>{text[4].t}</p>
+            <p>{@html text[4].t}</p>
         </div>
 
         <div class="dialog-container right">
             <p class="dialog" 
             in:fly={{x:500, delay:4700}}
-            on:introend={() => {setTimeout(() => {next = true}, 500)}}>{text[5].t}</p>
+            on:introend={() => {setTimeout(() => {next = true}, 500)}}>{@html text[5].t}</p>
         </div>
 
         {/if}
@@ -159,23 +159,23 @@
 
     {:else if index == 2}
         {#if visible}
-            <p in:typewriter>{text2[0].t}</p>
+            <p in:typewriter>{@html text2[0].t}</p>
             <div class="dialog-container left">
-                <p  class="dialog"in:fly={{x:-100, delay:400}}>{text2[1].t}</p>
+                <p  class="dialog"in:fly={{x:-100, delay:400}}>{@html text2[1].t}</p>
             </div>
             <div class="dialog-container left">
-                <p class="dialog" in:fly={{x:-100,delay:1000}}>{text2[2].t}</p>
+                <p class="dialog" in:fly={{x:-100,delay:1000}}>{@html text2[2].t}</p>
             </div>
             <div class="dialog-container left">
-                <p class="dialog" in:fly={{x:-100, delay:1600}}>{text2[3].t}</p>
+                <p class="dialog" in:fly={{x:-100, delay:1600}}>{@html text2[3].t}</p>
             </div>
 
             <br>
-            <p in:typewriter={{delay:2000}}>{text2[4].t}</p>
+            <p in:typewriter={{delay:2000}}>{@html text2[4].t}</p>
 
             <div class="dialog-container right">
                 <p class="dialog" in:fly={{x:500, end:true, delay:2600}}
-                on:introend={() => {setTimeout(() => {next = true}, 500)}}>{text2[5].t}</p>
+                on:introend={() => {setTimeout(() => {next = true}, 500)}}>{@html text2[5].t}</p>
             </div>
 
         {/if}
@@ -188,13 +188,13 @@
     {:else if index == 12}
         {#if visible}
         <div class="text" in:typewriter>
-            <p>{text3[0].t}</p>
-            <p>{text3[1].t}</p>
-            <p>{text3[2].t}</p>
+            <p>{@html text3[0].t}</p>
+            <p>{@html text3[1].t}</p>
+            <p>{@html text3[2].t}</p>
         </div>
             <div class="dialog-container left">
                 <p class="dialog" in:fly={{x:-100, delay:2800}}
-                on:introend={() => {setTimeout(() => {next = true}, 500)}}>{text3[3].t}</p>
+                on:introend={() => {setTimeout(() => {next = true}, 500)}}>{@html text3[3].t}</p>
             </div>      
         {/if}
 
