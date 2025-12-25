@@ -1,0 +1,39 @@
+{
+  "node_modules/@sveltejs/kit/src/runtime/client/bundle.js": {
+    "file": "_app/immutable/bundle.CB2ARahF.js",
+    "name": "bundle",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/bundle.js",
+    "isEntry": true,
+    "assets": [
+      "_app/immutable/assets/psn-audio-button.Bqo91Nrs.mp3",
+      "_app/immutable/assets/psn-audio-beep.BeEdw85D.mp3",
+      "_app/immutable/assets/psn-audio-page-flip.BF8gG8iN.mp3",
+      "_app/immutable/assets/psn-audio-game-over.CYQBJcD1.mp3",
+      "_app/immutable/assets/psn-audio-success.D8l5QRPr.mp3"
+    ]
+  },
+  "src/lib/audio/psn-audio-beep.mp3": {
+    "file": "_app/immutable/assets/psn-audio-beep.BeEdw85D.mp3",
+    "src": "src/lib/audio/psn-audio-beep.mp3"
+  },
+  "src/lib/audio/psn-audio-button.mp3": {
+    "file": "_app/immutable/assets/psn-audio-button.Bqo91Nrs.mp3",
+    "src": "src/lib/audio/psn-audio-button.mp3"
+  },
+  "src/lib/audio/psn-audio-game-over.mp3": {
+    "file": "_app/immutable/assets/psn-audio-game-over.CYQBJcD1.mp3",
+    "src": "src/lib/audio/psn-audio-game-over.mp3"
+  },
+  "src/lib/audio/psn-audio-page-flip.mp3": {
+    "file": "_app/immutable/assets/psn-audio-page-flip.BF8gG8iN.mp3",
+    "src": "src/lib/audio/psn-audio-page-flip.mp3"
+  },
+  "src/lib/audio/psn-audio-success.mp3": {
+    "file": "_app/immutable/assets/psn-audio-success.D8l5QRPr.mp3",
+    "src": "src/lib/audio/psn-audio-success.mp3"
+  },
+  "style.css": {
+    "file": "_app/immutable/assets/style.BJiGdXIA.css",
+    "src": "style.css"
+  }
+}

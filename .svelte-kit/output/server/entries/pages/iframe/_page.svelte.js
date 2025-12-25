@@ -1,0 +1,6 @@
+function _page($$payload) {
+  $$payload.out += `<iframe allowfullscreen="allowfullscreen" frameborder="0" id="fullframe" scrolling="no" src=" https://psn-for-dummies.vercel.app/" style="width: 100%; height: 90vh; max-width:600px" title="PSN for dummies game embed"></iframe>`;
+}
+export {
+  _page as default
+};
