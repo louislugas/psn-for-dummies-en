@@ -271,6 +271,7 @@
 		border-radius: 0.2rem;
 		border-color: hsl(206, 20%, 80%);
 		font-family: 'Noto Sans', sans-serif;
+		word-break: break-word;
 	}
 	.column {
 		padding:0.5rem;

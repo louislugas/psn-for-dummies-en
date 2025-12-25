@@ -40,9 +40,9 @@
             <button class="sector" class:selected={sector == "kie" && selected} on:click={select} data-value="kie">Industrial/ Economic Zone</button>
             <button class="sector" class:selected={sector == "pangan" && selected} on:click={select} data-value="pangan">Food Estate</button>
         </div>
-        <button class="next" on:click={() => {index = 4}} disabled={!selected}>Lanjut</button>
+        <button class="next" on:click={() => {index = 4}} disabled={!selected}>Continue</button>
     {:else if index == 13}
-            <h2>Pilih satu jurus yang kamu paling cocok!</h2>
+            <h2>Pick a whitewashing move:</h2>
             <!-- <select bind:value={sector}>
                 <option value="pertambangan">Pertambangan</option>
                 <option value="agrikultur">Agrikultur</option>

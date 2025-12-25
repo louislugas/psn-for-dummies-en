@@ -183,7 +183,8 @@
         margin:1rem;
         font-family: "Noto Sans", sans-serif;
         font-size: 0.8rem;
-        line-height: 1.2rem;
+        line-height: 1rem;
+        margin-right:0;
         /* margin-top:0; */
     }
     .text > h3 {
