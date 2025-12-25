@@ -220,7 +220,7 @@
 	</button>
 	{#if showButton}
 	<button on:click={skip}>
-		Susah,<br>skip aja deh!
+		Too hard!<br>Let’s skip this!
 	</button>
 	{/if}
 </section>

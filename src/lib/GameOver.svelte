@@ -5,7 +5,7 @@
 <section>
     <h2>GAME OVER</h2>
     {#if index == 23} <!-- GAME OVER via AMDAL -->
-    <button on:click={() => {index = 9}}>Coba lagi</button>
+    <button on:click={() => {index = 9}}>Retry</button>
     {:else if index == 24} <!-- GAME OVER via LABEL HIJAU-->
     <button on:click={() => {index = 14}}>Coba lagi</button>
     {/if}

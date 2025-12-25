@@ -108,20 +108,20 @@
 
         {:else if index == 9} <!-- DENGARKAN MASYARAKAT ( INTRO )-->
             {#if time > 10 && time <= 30}
-            {#if visible}
-            <p in:typewriter>
-                Hmm... Coba saya mau lihat bagaimana cara kamu jelaskan pro-kontra proyek ke masyarakat.
-                <br><br>
-                Klik warga yang angkat tangan untuk <em>dengerin</em> aspirasinya.
-            </p>
-            {/if}
+                {#if visible}
+                <p in:typewriter>
+                    Hmm... Let me see how you explain the pros and cons of this project to the community.
+                    <br><br>
+                    Click on the residents raising their hands to hear what they have to say.
+                </p>
+                {/if}
             {:else if time <= 10 && time > 0}
             <p>
-                {time} detik lagi!
+                {time} seconds left!
             </p>
             {:else if time == 0}
             <p>
-                Waktu habis!
+                Time's up!
             </p>
             {/if}
 
