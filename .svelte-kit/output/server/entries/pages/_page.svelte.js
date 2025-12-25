@@ -306,7 +306,7 @@ function Intro($$payload, $$props) {
       $$payload2.out += "<!--[-->";
       if (visible) {
         $$payload2.out += "<!--[-->";
-        $$payload2.out += `<div class="text svelte-16fq2kj"><p class="svelte-16fq2kj">${escape_html(text[0].t)}</p> <p class="svelte-16fq2kj">${escape_html(text[1].t)}</p> <p class="svelte-16fq2kj">${escape_html(text[2].t)}</p></div> <div class="dialog-container left svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${escape_html(text[3].t)}</p></div> <br> <div class="text svelte-16fq2kj"><p class="svelte-16fq2kj">${escape_html(text[4].t)}</p></div> <div class="dialog-container right svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${escape_html(text[5].t)}</p></div>`;
+        $$payload2.out += `<div class="text svelte-16fq2kj"><p class="svelte-16fq2kj">${html(text[0].t)}</p> <p class="svelte-16fq2kj">${html(text[1].t)}</p> <p class="svelte-16fq2kj">${html(text[2].t)}</p></div> <div class="dialog-container left svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${html(text[3].t)}</p></div> <br> <div class="text svelte-16fq2kj"><p class="svelte-16fq2kj">${html(text[4].t)}</p></div> <div class="dialog-container right svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${html(text[5].t)}</p></div>`;
       } else {
         $$payload2.out += "<!--[!-->";
       }
@@ -324,7 +324,7 @@ function Intro($$payload, $$props) {
         $$payload2.out += "<!--[-->";
         if (visible) {
           $$payload2.out += "<!--[-->";
-          $$payload2.out += `<p class="svelte-16fq2kj">${escape_html(text2[0].t)}</p> <div class="dialog-container left svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${escape_html(text2[1].t)}</p></div> <div class="dialog-container left svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${escape_html(text2[2].t)}</p></div> <div class="dialog-container left svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${escape_html(text2[3].t)}</p></div> <br> <p class="svelte-16fq2kj">${escape_html(text2[4].t)}</p> <div class="dialog-container right svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${escape_html(text2[5].t)}</p></div>`;
+          $$payload2.out += `<p class="svelte-16fq2kj">${html(text2[0].t)}</p> <div class="dialog-container left svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${html(text2[1].t)}</p></div> <div class="dialog-container left svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${html(text2[2].t)}</p></div> <div class="dialog-container left svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${html(text2[3].t)}</p></div> <br> <p class="svelte-16fq2kj">${html(text2[4].t)}</p> <div class="dialog-container right svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${html(text2[5].t)}</p></div>`;
         } else {
           $$payload2.out += "<!--[!-->";
         }
@@ -342,7 +342,7 @@ function Intro($$payload, $$props) {
           $$payload2.out += "<!--[-->";
           if (visible) {
             $$payload2.out += "<!--[-->";
-            $$payload2.out += `<div class="text svelte-16fq2kj"><p class="svelte-16fq2kj">${escape_html(text3[0].t)}</p> <p class="svelte-16fq2kj">${escape_html(text3[1].t)}</p> <p class="svelte-16fq2kj">${escape_html(text3[2].t)}</p></div> <div class="dialog-container left svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${escape_html(text3[3].t)}</p></div>`;
+            $$payload2.out += `<div class="text svelte-16fq2kj"><p class="svelte-16fq2kj">${html(text3[0].t)}</p> <p class="svelte-16fq2kj">${html(text3[1].t)}</p> <p class="svelte-16fq2kj">${html(text3[2].t)}</p></div> <div class="dialog-container left svelte-16fq2kj"><p class="dialog svelte-16fq2kj">${html(text3[3].t)}</p></div>`;
           } else {
             $$payload2.out += "<!--[!-->";
           }
