@@ -154,7 +154,7 @@
 
         {/if}
         {#if next}
-        <button on:click={() => {index++}}>LANJUT</button>
+        <button on:click={() => {index++}}>CONTINUE</button>
         {/if}
 
     {:else if index == 2}
