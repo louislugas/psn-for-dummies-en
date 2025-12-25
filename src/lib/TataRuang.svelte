@@ -20,15 +20,15 @@
     $: if (choice) {
 		dialog.showModal()
         allowClick = false
-        if (choice == "hutan") {
+        if (choice == "forest area") {
             area = 0
-        } else if (choice == "masyarakat adat") {
+        } else if (choice == "indigenous land") {
             area = 0
-        } else if (choice == "pertanian") {
+        } else if (choice == "farmland") {
             area = 1
-        } else if (choice == "pesisir" ) {
+        } else if (choice == "coastal area" ) {
             area = 2
-        } else if (choice == "permukiman") {
+        } else if (choice == "settlements") {
             area = 3
         }
 	}
@@ -49,9 +49,9 @@
 <Map bind:choice/>
 
 <dialog bind:this={dialog}>
-    <p>Kamu memilih area <strong>{choice}</strong></p>
-    <button on:click={close}>Ganti</button>
-    <button on:click={next}>Lanjut</button>
+    <p>You have selected the <strong>{choice}</strong> area</p>
+    <button on:click={close}>Change Location</button>
+    <button on:click={next}>Continue</button>
 </dialog>
 
 <ButtonAudio {play} />

@@ -98,7 +98,7 @@
 
         {:else if index == 7} <!-- PILIH AREA -->
             <p in:typewriter>
-                Sekarang, klik area di peta untuk memilih lokasi proyekmu.
+                Now click on the map to choose your project’s location.
             </p>
 
         {:else if index == 8} <!-- SOSIALISASI PROYEK -->
