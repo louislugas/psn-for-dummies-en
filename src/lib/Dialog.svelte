@@ -127,9 +127,9 @@
 
         {:else if index == 11} <!-- PROTES MASYARAKAT -->
             <p in:typewriter>
-                Gak usah sosialisasi juga santai sebenarnya. Kalau warga protes, tinggal turunkan polisi atau tentara untuk mengamankan.
+                You don’t really need to bother with public consultations anyway. If people start protesting, you can just send in the police or military to “secure” the situation.
                 <br><br>
-                Kamu maunya aparat bertindak sejauh mana?
+                How far do you want the security forces to go?
             </p>
 
         {:else if index == 12} <!-- JURUS CUCI DOSA 1 -->

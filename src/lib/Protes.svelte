@@ -38,14 +38,14 @@
 	</svg>
 	{#if state > 0}
 	<div class="popover">{
-		state == 1 ? "Bubarkan massa aksi" :
-		state == 2 ? "Tangkap massa aksi" :
-		state == 3 ? "Tangkap jurnalis" :
+		state == 1 ? "Disperse the protesters" :
+		state == 2 ? "Arrest the protesters" :
+		state == 3 ? "Arrest the journalists" :
 		""
 	}
 	<div style:margin-top="1rem">
-		<button on:click={() => {index = 12}}>Ya</button>
-		<button on:click={reset}>Tidak</button>
+		<button on:click={() => {index = 12}}>Yes</button>
+		<button on:click={reset}>No</button>
 	</div>
 	</div>
 	{/if}
@@ -53,7 +53,7 @@
 		<Direct 
 			bind:showDirect
 			{play}
-			content = "Klik karakter di gambar untuk memilih tindakan"
+			content = "Click on the people in the image to choose an action"
 		/>
 	{/if}
 </section>
