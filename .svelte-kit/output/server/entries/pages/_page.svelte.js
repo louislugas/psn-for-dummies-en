@@ -259,7 +259,7 @@ function Intro($$payload, $$props) {
     {
       t: "You’re not interested in investing in PSN?"
     },
-    { t: "You reply,:" },
+    { t: "You reply:" },
     { t: "What’s PSN?" }
   ];
   let text2 = [
