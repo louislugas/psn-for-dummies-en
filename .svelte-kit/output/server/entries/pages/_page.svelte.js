@@ -111,7 +111,7 @@ function Dialog($$payload, $$props) {
         $$payload2.out += "<!--[!-->";
         if (index == 5) {
           $$payload2.out += "<!--[-->";
-          $$payload2.out += `<p class="svelte-1atvtdm">These are the permits required to get your project approved quickly.<br><br>Let’s see if you can put each permit into the correct category.</p>`;
+          $$payload2.out += `<p class="svelte-1atvtdm">These are the permits required to get your project approved quickly. <br><br>Let’s see if you can put each permit into the correct category.</p>`;
         } else {
           $$payload2.out += "<!--[!-->";
           if (index == 6) {
@@ -614,7 +614,7 @@ function Matching($$payload, $$props) {
           play = $$value;
           $$settled = false;
         },
-        content: "Drag documents on the left into their correct permits on the right."
+        content: "Drag documents on the left into their correct categories on the right."
       });
     } else {
       $$payload2.out += "<!--[!-->";
@@ -821,11 +821,11 @@ function TataRuang($$payload, $$props) {
       area = 0;
     } else if (choice == "indigenous land") {
       area = 0;
-    } else if (choice == "farmland") {
+    } else if (choice == "farmland area") {
       area = 1;
     } else if (choice == "coastal area") {
       area = 2;
-    } else if (choice == "settlements") {
+    } else if (choice == "settlement area") {
       area = 3;
     }
   }
@@ -842,7 +842,7 @@ function TataRuang($$payload, $$props) {
         $$settled = false;
       }
     });
-    $$payload2.out += `<!----> <dialog class="svelte-2f55ce"><p>You have selected the <strong>${escape_html(choice)}</strong> area</p> <button class="svelte-2f55ce">Change Location</button> <button class="svelte-2f55ce">Continue</button></dialog> `;
+    $$payload2.out += `<!----> <dialog class="svelte-2f55ce"><p>You have selected the <strong>${escape_html(choice)}</strong></p> <button class="svelte-2f55ce">Change Location</button> <button class="svelte-2f55ce">Continue</button></dialog> `;
     ButtonAudio($$payload2, { play });
     $$payload2.out += `<!----></section>`;
   }
@@ -1000,11 +1000,11 @@ function Resume($$payload, $$props) {
   if (area = 0) {
     a = "Forest Area/Indigenous Land";
   } else if (area = 1) {
-    a = "Farmland/Plantation";
+    a = "Farmland/Plantation Area";
   } else if (area = 2) {
     a = "Coastal Area";
   } else if (area = 3) {
-    a = "Settlements";
+    a = "Settlement Area";
   }
   if (state == 1) {
     p = "Disperse the protesters";

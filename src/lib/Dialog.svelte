@@ -83,7 +83,7 @@
 
         {:else if index == 5} <!-- MENCOCOKKAN DOKUMEN -->
             <p in:typewriter>
-                These are the permits required to get your project approved quickly.<br><br>Let’s see if you can put each permit into the correct category.
+                These are the permits required to get your project approved quickly. <br><br>Let’s see if you can put each permit into the correct category.
             </p>
             <!-- {#if match}
             <button on:click={() => goto(7)}>Continue</button>

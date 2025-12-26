@@ -46,11 +46,11 @@
     $: if (area = 0) {
         a = "Forest Area/Indigenous Land"
     } else if (area = 1) {
-        a = "Farmland/Plantation"
+        a = "Farmland/Plantation Area"
     } else if (area = 2) {
         a = "Coastal Area"
     } else if (area = 3) {
-        a = "Settlements"
+        a = "Settlement Area"
     }
 
     $: if (state == 1) {

@@ -24,11 +24,11 @@
             area = 0
         } else if (choice == "indigenous land") {
             area = 0
-        } else if (choice == "farmland") {
+        } else if (choice == "farmland area") {
             area = 1
         } else if (choice == "coastal area" ) {
             area = 2
-        } else if (choice == "settlements") {
+        } else if (choice == "settlement area") {
             area = 3
         }
 	}
@@ -49,7 +49,7 @@
 <Map bind:choice/>
 
 <dialog bind:this={dialog}>
-    <p>You have selected the <strong>{choice}</strong> area</p>
+    <p>You have selected the <strong>{choice}</strong></p>
     <button on:click={close}>Change Location</button>
     <button on:click={next}>Continue</button>
 </dialog>

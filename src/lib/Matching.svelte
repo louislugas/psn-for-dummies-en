@@ -229,7 +229,7 @@
 	<Direct 
 		bind:showDirect
 		bind:play
-		content="Drag documents on the left into their correct permits on the right."
+		content="Drag documents on the left into their correct categories on the right."
 	/>
 	{/if}
 </section>
